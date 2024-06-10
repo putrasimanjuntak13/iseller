@@ -59,18 +59,25 @@
       "reference": {
 		  "keyVault": {
         "id": "/subscriptions/abd09325-6c0e-4329-be3e-da889da64e8c/resourceGroups/iSeller/providers/Microsoft.Compute/disks/is-sql1-OSdisk-00-copy-disk"
-      }
+      },
+    "secretName": "vm-osdisk-2"
 	  }
     },
     "dataDiskId1": {
       "reference": {
+		  "keyVault": {
         "id": "/subscriptions/abd09325-6c0e-4329-be3e-da889da64e8c/resourceGroups/iSeller/providers/Microsoft.Compute/disks/is-sql1-datadisk-01-copy-disk"
-      }
+      },
+    "secretName": "vm-datadisk-1"
+	  }
     },
     "dataDiskId2": {
       "reference": {
+		  "keyVault": {
         "id": "/subscriptions/abd09325-6c0e-4329-be3e-da889da64e8c/resourceGroups/iSeller/providers/Microsoft.Compute/disks/is-sql1-datadisk-02-copy-disk"
-      }
+      },
+    "secretName": "vm-datadisk-2"
+	  }
     },
     "virtualMachineSize": {
       "value": "Standard_E8ds_v4"
