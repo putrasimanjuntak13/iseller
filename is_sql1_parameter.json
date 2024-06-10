@@ -57,8 +57,10 @@
     },
     "osDiskId": {
       "reference": {
+		  "keyVault": {
         "id": "/subscriptions/abd09325-6c0e-4329-be3e-da889da64e8c/resourceGroups/iSeller/providers/Microsoft.Compute/disks/is-sql1-OSdisk-00-copy-disk"
       }
+	  }
     },
     "dataDiskId1": {
       "reference": {
