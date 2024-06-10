@@ -79,6 +79,12 @@
     "adminUsername": {
       "value": "vmadmin"
     },
+	"subnetName": {
+      "value": "db-subnet"
+    },
+	"deploymentGroup": {
+      "value": "SQLVM"
+    },
     "patchMode": {
       "value": "AutomaticByOS"
     },
