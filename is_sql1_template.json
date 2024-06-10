@@ -165,19 +165,6 @@
                         }
                     ]
                 },
-                "osProfile": {
-                    "computerName": "[variables('vmComputerName')]",
-                    "adminUsername": "[parameters('adminUsername')]",
-                    "adminPassword": "[parameters('adminPassword')]",
-                    "windowsConfiguration": {
-                        "enableAutomaticUpdates": true,
-                        "provisionVmAgent": true,
-                        "patchSettings": {
-                            "enableHotpatching": "[parameters('enableHotpatching')]",
-                            "patchMode": "[parameters('patchMode')]"
-                        }
-                    }
-                },
                 "licenseType": "Windows_Server",
                 "diagnosticsProfile": {
                     "bootDiagnostics": {
