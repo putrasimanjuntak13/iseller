@@ -140,7 +140,22 @@
                             "id": "[parameters('osDiskId')]"
                         }
                     },
-                    "dataDisks": "[variables('dataDisks')]"
+                    "dataDisks": [
+            {
+              "lun": 0,
+              "createOption": "Attach",
+              "managedDisk": {
+                "id": "[parameters('dataDiskId1')]"
+              }
+            },
+            {
+              "lun": 1,
+              "createOption": "Attach",
+              "managedDisk": {
+                "id": "[parameters('dataDiskId2')]"
+              }
+            }
+          ]
                 },
                 "networkProfile": {
                     "networkInterfaces": [
