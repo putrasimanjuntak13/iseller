@@ -5,6 +5,9 @@
     "publicIpAddressType": {
       "value": "Static"
     },
+     "requirePublicIp": {
+      "value": true
+    },	
     "domainToJoin": {
       "value": "iseller2.local"
     },
