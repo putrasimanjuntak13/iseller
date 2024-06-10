@@ -62,7 +62,7 @@
         "value": "/subscriptions/abd09325-6c0e-4329-be3e-da889da64e8c/resourceGroups/iSeller/providers/Microsoft.Compute/disks/is-sql1-datadisk-01-copy-disk"
     },
     "dataDiskId2": {
-        "id": "/subscriptions/abd09325-6c0e-4329-be3e-da889da64e8c/resourceGroups/iSeller/providers/Microsoft.Compute/disks/is-sql1-datadisk-02-copy-disk"
+        "value": "/subscriptions/abd09325-6c0e-4329-be3e-da889da64e8c/resourceGroups/iSeller/providers/Microsoft.Compute/disks/is-sql1-datadisk-02-copy-disk"
     },
     "virtualMachineSize": {
       "value": "Standard_E8ds_v4"
