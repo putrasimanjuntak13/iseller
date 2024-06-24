@@ -4,9 +4,6 @@
   "parameters": {
     "publicIpAddressType": {
       "value": "Static"
-    },
-     "requirePublicIp": {
-      "value": true
     },	
     "domainToJoin": {
       "value": "iseller2.local"
@@ -59,28 +56,25 @@
       "value": "iSeller"
     },
     "osDiskId": {
-        "value": "/subscriptions/abd09325-6c0e-4329-be3e-da889da64e8c/resourceGroups/iSeller/providers/Microsoft.Compute/disks/is-sql1-OSdisk-00-copy-disk"
+        "value": "/subscriptions/abd09325-6c0e-4329-be3e-da889da64e8c/resourceGroups/iSeller/providers/Microsoft.Compute/disks/is-sql1-OSdisk-00-new"
       },
     "dataDiskId1": {
-        "value": "/subscriptions/abd09325-6c0e-4329-be3e-da889da64e8c/resourceGroups/iSeller/providers/Microsoft.Compute/disks/is-sql1-datadisk-01-copy-disk"
+        "value": "/subscriptions/abd09325-6c0e-4329-be3e-da889da64e8c/resourceGroups/iSeller/providers/Microsoft.Compute/disks/is-sql1-datadisk-01-new"
     },
     "dataDiskId2": {
-        "value": "/subscriptions/abd09325-6c0e-4329-be3e-da889da64e8c/resourceGroups/iSeller/providers/Microsoft.Compute/disks/is-sql1-datadisk-02-copy-disk"
+        "value": "/subscriptions/abd09325-6c0e-4329-be3e-da889da64e8c/resourceGroups/iSeller/providers/Microsoft.Compute/disks/is-sql1-datadisk-02-new"
     },
     "virtualMachineSize": {
       "value": "Standard_E8ds_v4"
     },
 	"virtualMachineName": {
-      "value": "is-sql1-copy"
+      "value": "is-sql1-new"
     },
     "adminUsername": {
       "value": "vmadmin"
     },
 	"subnetName": {
       "value": "db-subnet"
-    },
-	"deploymentGroup": {
-      "value": "SQLVM"
     },
     "patchMode": {
       "value": "AutomaticByOS"
