@@ -2,12 +2,6 @@
     "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "deploymentGroup": {
-            "type": "string"
-        },
-        "requirePublicIp": {
-            "type": "bool"
-        },
         "domainToJoin": {
             "type": "string"
         },
@@ -82,7 +76,7 @@
         "networkInterfaceName": "[concat(parameters('virtualMachineName'), '-', 'nic0')]",
         "publicIpAddressName": "[concat(parameters('virtualMachineName'), '-', 'ip')]",
         "vmComputerName": "[parameters('virtualMachineName')]",
-        "vmSecureArguments": "[concat(parameters('domainAdminPassword'), ' ', parameters('certPassword'), ' true ', parameters('deploymentGroup'))]",
+        "vmSecureArguments": "[concat(parameters('domainAdminPassword'), ' ', parameters('certPassword'), ' true ')]",
         "dataDisks": [
             {
                 "lun": 0,
@@ -190,7 +184,7 @@
                         "value": "[parameters('virtualMachineName')]"
                     },
                     "arguments": {
-                        "value": "[concat(parameters('domainAdminPassword'), ' ', parameters('certPassword'), ' true ', parameters('deploymentGroup'))]"
+                        "value": "[concat(parameters('domainAdminPassword'), ' ', parameters('certPassword'), ' true ')]"
                     },
                     "location": {
                         "value": "southeastasia"
